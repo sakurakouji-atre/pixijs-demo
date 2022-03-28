@@ -1,0 +1,23 @@
+{
+  "name": "pixijs-demo",
+  "version": "1.0.0",
+  "description": "show spine in html page with pixijs",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --watch",
+    "build": "webpack --config webpack.prod.js",
+    "start": "webpack serve --open --config webpack.dev.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pixi-spine": "^3.0.13",
+    "pixi.js": "^6.2.2"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^10.2.4",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
